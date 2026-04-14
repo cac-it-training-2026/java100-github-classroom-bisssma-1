@@ -55,7 +55,7 @@
  *  ご苦労さまでした。
  */
 
-package jp.co.sss.java100_questions_cac.lesson04.challenge10;
+package lesson04.challenge10;
 
 public class WarehouseManager {
 

@@ -46,7 +46,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson03.challenge08;
+package lesson03.challenge08;
 
 public class Explorer {
 

@@ -1,4 +1,4 @@
-package jp.co.sss.java100_questions_cac.lesson09.challenge01.Nurserry.logic;
+package lesson09.challenge01.Nurserry.logic;
 
 public class NurserySchoolChild {
 

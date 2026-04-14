@@ -44,7 +44,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson03.challenge02;
+package lesson03.challenge02;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -61,9 +61,15 @@ public class Explorer {
 		int targetCans = 50;
 		int inputCans = 0;
 
+		for (int i = 0; i < 3; i++) {
+			System.out.println("あと" + (3 - i) + "回");
+			System.out.println("式の評価値はtrue");
+			System.out.println("\n袋には何個入れる？");
 
-		//ここにfor文を利用した処理を記述
+			String numStr = br.readLine();
+			inputCans += Integer.parseInt(numStr);
 
+		}
 
 		if (inputCans >= targetCans) {
 			System.out.println("\n隊長：");

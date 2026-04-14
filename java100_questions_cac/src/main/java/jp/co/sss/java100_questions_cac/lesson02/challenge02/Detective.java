@@ -15,7 +15,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson02.challenge02;
+package lesson02.challenge02;
 
 public class Detective {
 
@@ -26,7 +26,7 @@ public class Detective {
 
 		boolean appointment = false;
 
-		if (appointment) {
+		if (!appointment) {
 			System.out.println("助手：");
 			System.out.println("いつも空いています。");
 		}

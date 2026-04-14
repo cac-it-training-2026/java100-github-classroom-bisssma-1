@@ -10,7 +10,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson08.challenge01;
+package lesson08.challenge01;
 
 class Nurse {
     private String name;

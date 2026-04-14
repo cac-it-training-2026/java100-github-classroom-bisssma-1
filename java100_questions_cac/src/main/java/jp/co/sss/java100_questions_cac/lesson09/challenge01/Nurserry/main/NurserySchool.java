@@ -22,38 +22,38 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson09.challenge01.Nurserry.main;
+package lesson09.challenge01.Nurserry.main;
 
-import jp.co.sss.java100_questions_cac.lesson09.challenge01.Nurserry.logic.Nurse;
-import jp.co.sss.java100_questions_cac.lesson09.challenge01.Nurserry.logic.NurserySchoolChild;
+import lesson09.challenge01.Nurserry.logic.Nurse;
+import lesson09.challenge01.Nurserry.logic.NurserySchoolChild;
 
 public class NurserySchool {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Nurse nurse1 = new Nurse("保育太郎");
-		Nurse nurse2 = new Nurse("保育次郎");
-		Nurse nurse3 = new Nurse("保育三郎");
+        Nurse nurse1 = new Nurse("保育太郎");
+        Nurse nurse2 = new Nurse("保育次郎");
+        Nurse nurse3 = new Nurse("保育三郎");
 
-		System.out.println(nurse1.getName() + "が出勤しました。");
-		System.out.println(nurse2.getName() + "が出勤しました。");
-		System.out.println(nurse3.getName() + "が出勤しました。");
+        System.out.println(nurse1.getName() + "が出勤しました。");
+        System.out.println(nurse2.getName() + "が出勤しました。");
+        System.out.println(nurse3.getName() + "が出勤しました。");
 
-		NurserySchoolChild child1 = new NurserySchoolChild("園児①");
-		NurserySchoolChild child2 = new NurserySchoolChild("園児②");
-		NurserySchoolChild child3 = new NurserySchoolChild("園児③");
+        NurserySchoolChild child1 = new NurserySchoolChild("園児①");
+        NurserySchoolChild child2 = new NurserySchoolChild("園児②");
+        NurserySchoolChild child3 = new NurserySchoolChild("園児③");
 
-		System.out.println(child1.getName() + "が登園しました。");
-		System.out.println(child2.getName() + "が登園しました。");
-		System.out.println(child3.getName() + "が登園しました。");
+        System.out.println(child1.getName() + "が登園しました。");
+        System.out.println(child2.getName() + "が登園しました。");
+        System.out.println(child3.getName() + "が登園しました。");
 
-		NurserySchoolChild[] childs = new NurserySchoolChild[3];
-		childs[0] = child1;
-		childs[1] = child2;
-		childs[2] = child3;
+        NurserySchoolChild[] childs = new NurserySchoolChild[3];
+        childs[0] = child1;
+        childs[1] = child2;
+        childs[2] = child3;
 
-		System.out.println("\n出席番号4番の園児は来てますか？\n");
+        System.out.println("\n出席番号4番の園児は来てますか？\n");
 
-		nurse1.takeAttendance(childs, 4);
-	}
+        nurse1.takeAttendance(childs, 4);
+    }
 }

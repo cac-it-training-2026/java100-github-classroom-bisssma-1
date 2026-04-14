@@ -46,7 +46,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson05.challenge09;
+package lesson05.challenge09;
 
 import java.io.BufferedReader;
 import java.io.IOException;

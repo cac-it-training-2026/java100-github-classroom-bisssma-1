@@ -23,7 +23,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson07.challenge01;
+package lesson07.challenge01;
 
 class Samurai {
 

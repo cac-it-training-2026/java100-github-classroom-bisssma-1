@@ -54,7 +54,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson04.challenge12;
+package lesson04.challenge12;
 
 public class WarehouseManager {
 

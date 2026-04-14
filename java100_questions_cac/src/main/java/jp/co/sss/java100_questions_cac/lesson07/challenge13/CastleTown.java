@@ -19,7 +19,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson07.challenge13;
+package lesson07.challenge13;
 
 
 //ここにICelebrityインターフェースを記述

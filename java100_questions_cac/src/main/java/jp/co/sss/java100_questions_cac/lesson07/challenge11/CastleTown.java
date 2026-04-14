@@ -21,7 +21,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson07.challenge11;
+package lesson07.challenge11;
 
 
 //ここにSamuraiクラスを記述

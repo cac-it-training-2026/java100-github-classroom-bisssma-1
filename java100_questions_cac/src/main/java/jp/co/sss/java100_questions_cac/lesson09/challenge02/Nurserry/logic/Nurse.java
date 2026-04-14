@@ -1,4 +1,4 @@
-package jp.co.sss.java100_questions_cac.lesson09.challenge02.Nurserry.logic;
+package lesson09.challenge02.Nurserry.logic;
 
 public class Nurse {
     private String name;

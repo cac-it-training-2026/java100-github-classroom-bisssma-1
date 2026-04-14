@@ -37,14 +37,14 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson09.challenge02.Nurserry.main;
+package lesson09.challenge02.Nurserry.main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import jp.co.sss.java100_questions_cac.lesson09.challenge02.Nurserry.logic.Nurse;
-import jp.co.sss.java100_questions_cac.lesson09.challenge02.Nurserry.logic.NurserySchoolChild;
+import lesson09.challenge02.Nurserry.logic.Nurse;
+import lesson09.challenge02.Nurserry.logic.NurserySchoolChild;
 
 public class NurserySchool {
 

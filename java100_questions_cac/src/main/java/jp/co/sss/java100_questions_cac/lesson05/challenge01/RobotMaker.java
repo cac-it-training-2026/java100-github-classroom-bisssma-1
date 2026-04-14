@@ -38,7 +38,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson05.challenge01;
+package lesson05.challenge01;
 
 //ここに次の条件を満たすクラスを作成してください。
 //クラス名：Robot フィールド名：energy(int型)
