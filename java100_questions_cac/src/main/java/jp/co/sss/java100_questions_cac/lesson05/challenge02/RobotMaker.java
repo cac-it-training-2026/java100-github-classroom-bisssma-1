@@ -39,7 +39,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson05.challenge02;
+package lesson05.challenge02;
 
 //ここに問題1で作成したクラスに次の条件を足したクラスを作成してください。
 //フィールド名：name(String型)

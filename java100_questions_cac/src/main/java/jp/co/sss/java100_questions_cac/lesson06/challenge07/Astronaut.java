@@ -12,7 +12,7 @@
  *
  * 
  */
-package jp.co.sss.java100_questions_cac.lesson06.challenge07;
+package lesson06.challenge07;
 
 class Spaceship {
     private int air;

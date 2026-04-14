@@ -25,7 +25,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson05.challenge07;
+package lesson05.challenge07;
 
 //ここに問題6で作成したクラスに次の条件を足したクラスを作成してください。
 //メソッド名：getWater(引数なし、戻り値int、

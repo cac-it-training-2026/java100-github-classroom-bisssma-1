@@ -53,7 +53,7 @@
  ********************************************************************* *
  */
 
-package jp.co.sss.java100_questions_cac.lesson02.challenge10;
+package lesson02.challenge10;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -87,6 +87,8 @@ public class Detective {
 		int num = Integer.parseInt(numStr);
 
 		//ここに記述する
+		String answer = (num == 1) ? "正解です" : "不正解です";
+		System.out.print(answer);
 
 	}
 

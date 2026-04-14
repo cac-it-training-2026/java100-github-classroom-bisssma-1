@@ -27,10 +27,10 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson09.challenge04.Nurserry.main;
+package lesson09.challenge04.Nurserry.main;
 
-import jp.co.sss.java100_questions_cac.lesson09.challenge04.Nurserry.logic.Nurse;
-import jp.co.sss.java100_questions_cac.lesson09.challenge04.Nurserry.logic.NurserySchoolChild;
+import lesson09.challenge04.Nurserry.logic.Nurse;
+import lesson09.challenge04.Nurserry.logic.NurserySchoolChild;
 
 public class NurserySchool {
 

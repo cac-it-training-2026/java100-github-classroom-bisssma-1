@@ -9,7 +9,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson06.challenge06;
+package lesson06.challenge06;
 
 class Spaceship {
     private int air;

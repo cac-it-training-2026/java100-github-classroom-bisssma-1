@@ -33,7 +33,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson06.challenge11;
+package lesson06.challenge11;
 
 import java.io.BufferedReader;
 import java.io.IOException;

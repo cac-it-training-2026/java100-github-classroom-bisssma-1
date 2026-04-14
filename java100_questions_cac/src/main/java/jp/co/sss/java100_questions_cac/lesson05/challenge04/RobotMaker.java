@@ -34,7 +34,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson05.challenge04;
+package lesson05.challenge04;
 
 //ここに問題3で作成したクラスに次の条件を足したクラスを作成してください。
 //フィールド名：water(int型)

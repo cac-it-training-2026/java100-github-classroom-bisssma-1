@@ -40,8 +40,84 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson01.challenge09;
+package lesson01.challenge09;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Patisserie {
+	public static void main(String[] args) throws IOException {
+		System.out.println("たいへんお待たせしました。");
+		System.out.println("【ポエール・ネルメ】");
+		System.out.println("ただいまより開店です！！");
 
+		int citronStock = 30;
+		int chocolatStock = 30;
+		int pistacheStock = 30;
+
+		System.out.println("\n本日のおすすめ商品です。\n");
+		System.out.println("シトロン      \\250 ・・・ 残り" + citronStock + "個");
+		System.out.println("ショコラ      \\280 ・・・ 残り" + chocolatStock + "個");
+		System.out.println("ピスターシュ  \\320 ・・・ 残り" + pistacheStock + "個");
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		System.out.println("\nそれぞれ何個ずつ買いますか？（最大30個まで）\n");
+
+		System.out.println("シトロン      >");
+		String citronCountStr = br.readLine();
+		double citronCount = Double.parseDouble(citronCountStr);
+
+		System.out.println("ショコラ      >");
+		String chocolatCountStr = br.readLine();
+		double chocolatCount = Double.parseDouble(chocolatCountStr);
+
+		System.out.println("ピスターシュ  >");
+		String pistacheCountStr = br.readLine();
+		double pistacheCount = Double.parseDouble(pistacheCountStr);
+
+		System.out.println("\nシトロン" + citronCount + "個");
+		System.out.println("ショコラ" + chocolatCount + "個");
+		System.out.println("ピスターシュ" + citronCount + "個\n");
+
+		double totalCount = citronCount + chocolatCount + pistacheCount;
+		int totalPrice = (int) (citronCount * 250 + chocolatCount * 280 + pistacheCount * 320);
+
+		System.out.println("合計個数：" + totalCount + "個");
+		System.out.println("合計金額：" + totalPrice + "円");
+		System.out.print("\nをお買いあげですね。");
+		System.out.println("承りました。");
+
+		citronStock = (int) (citronStock - citronCount);
+		chocolatStock = (int) (chocolatStock - chocolatCount);
+		pistacheStock = (int) (pistacheStock - pistacheCount);
+
+		System.out.println("在庫");
+		System.out.println("シトロン      \\250 ・・・ 残り" + citronStock + "個");
+		System.out.println("ショコラ      \\280 ・・・ 残り" + chocolatStock + "個");
+		System.out.println("ピスターシュ  \\320 ・・・ 残り" + pistacheStock + "個");
+
+		System.out.println("\n閉店時間となりました。またのお越しをお待ちしております。\n");
+		System.out.println("\n売上の割合");
+		System.out.println("売上合計  \\" + totalPrice);
+		System.out.println("\n内訳");
+		System.out.println("シトロン      \\" + (int) (250 * citronCount) + "・・・"
+				+ (int) ((250 * citronCount) / totalPrice * 100) + "%");
+		System.out.println("ショコラ      \\" + (int) (280 * chocolatCount) + "・・・"
+				+ (int) ((280 * chocolatCount) / totalPrice * 100) + "%");
+		System.out.println("ピスターシュ  \\" + (int) (320 * pistacheCount) + "・・・"
+				+ (int) ((320 * pistacheCount) / totalPrice * 100) + "%");
+
+		System.out.println("\n明日の三色マカロンの配合率が決まりました！\n");
+		System.out.println("シトロンの味    " + "・・・"
+				+ (int) ((250 * citronCount) / totalPrice * 100) + "%");
+		System.out.println("ショコラの味    " + "・・・"
+				+ (int) ((280 * chocolatCount) / totalPrice * 100) + "%");
+		System.out.println("ピスターシュの味" + "・・・"
+				+ (int) ((320 * pistacheCount) / totalPrice * 100) + "%");
+		System.out.println("\nが楽しめます！");
+		System.out.println("\n値段は\\" + (int) (totalPrice / totalCount) + "です。");
+
+	}
 }

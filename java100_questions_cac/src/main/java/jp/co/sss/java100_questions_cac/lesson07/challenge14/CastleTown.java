@@ -15,7 +15,7 @@
  *
  */
 
-package jp.co.sss.java100_questions_cac.lesson07.challenge14;
+package lesson07.challenge14;
 
 
 //ここにIChiefTreasurerインターフェースを記述
